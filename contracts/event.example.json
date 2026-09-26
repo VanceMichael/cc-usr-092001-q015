@@ -1,8 +1,20 @@
 {
   "schema_version": "1",
-  "event_id": "EVENT-015-DEMO",
+  "signal_id": "SIG-015-DEMO-0001",
+  "source_id": "DEVICE-015-DEMO",
+  "source_sequence": 17,
   "subject_ref": "SUBJECT-015-DEMO",
+  "signal_type": "harm_cue",
+  "feature_schema": "harm_cue@1",
+  "detector_variant": "local-on-device",
+  "detector_version": "detector-2026.09.1",
+  "rule_version": "bridge-rules-2026-09-01-v1",
+  "features": {
+    "cue_category": "self_harm",
+    "specificity": "plan",
+    "recency_hours": 2,
+    "cue_score": 0.82
+  },
   "occurred_at": "2026-09-19T09:30:00+08:00",
-  "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "payload_digest": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
 }
